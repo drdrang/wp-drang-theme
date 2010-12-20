@@ -1,0 +1,1 @@
+It's a blog theme for WordPress. How much more description do you need?

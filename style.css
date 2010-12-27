@@ -256,13 +256,16 @@ a:hover {
   border-right: 2px solid black;
 }
 
-
 #content div.update {
   padding-left: 1em;
   padding-right: 1em;
   background-color: #ded;
   border: 2px solid #384338;
   margin-bottom: .5em;
+}
+
+#content div.update  blockquote {
+  background-color: inherit;
 }
 
 #content div.sidebar {

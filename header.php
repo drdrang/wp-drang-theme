@@ -22,10 +22,11 @@
     }
     </script>
     <title><?php
-    if (is_single()){the_title(); echo ' - ';}
-    elseif (is_tag()) {single_tag_title('Posts tagged \''); echo '\' - ';}
-    elseif (is_search()) {echo 'Search results for \''; the_search_query(); echo '\' - ';}
-    bloginfo('name'); ?></title>
+    if (is_single()){the_title(); echo ' - All this';}
+    elseif (is_tag()) {single_tag_title('Posts tagged \''); echo '\' - All this';}
+    elseif (is_search()) {echo 'Search results for \''; the_search_query(); echo '\' - All this';}
+    else {bloginfo('name');}
+    ?></title>
   </head>
   <body onload="styleCode()">
     <div id="container">

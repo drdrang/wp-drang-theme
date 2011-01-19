@@ -119,6 +119,10 @@ a:hover {
   background-color: #F3FEF3;
 }
 
+#content blockquote.bbpTweet {
+  background-color: white;
+}
+
 #content pre {
 /*  font-size: 90%;*/
   padding-left: 1em;
@@ -255,6 +259,7 @@ a:hover {
   font-weight: bold;
   border-right: 2px solid black;
 }
+
 
 #content div.update {
   padding-left: 1em;

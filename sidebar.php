@@ -8,6 +8,7 @@
 	  <h1>Meta</h1>
 	    <ul>
 	      <li><a href="<?php echo get_bloginfo('home'); ?>/">Home page</a></li>
+	      <li><a href="<?php echo bloginfo('rss2_url'); ?>">RSS feed</a></li>
 	      <li><a href="http://www.twitter.com/drdrang">Twitter stream</a></li>
 	      <li><a href="http://flickr.com/photos/drdrang">Flickr stream</a></li>
   	  </ul>

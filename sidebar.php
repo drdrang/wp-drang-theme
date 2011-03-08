@@ -47,7 +47,7 @@
                                     Temperature conversion card for Hipster PDA</a></li>
                                     <li><a href="<?php echo get_bloginfo('home') . '/2007/03/improved-currency-conversion-card/'; ?>">
                                     Improved currency conversion card for Hipster PDA</a></li>
-                                    <li><a href="<?php echo get_bloginfo('home') . '/2008/05/snapshotupload-utility-with-gui/'; ?>">
+                                    <li><a href="<?php echo get_bloginfo('home') . '/2009/07/improved-mac-screenshotupload-utility/'; ?>">
                                     Screenshot uploading utility</a></li>
                                     <li><a href="<?php echo get_bloginfo('home') . '/2005/08/address_labels/'; ?>">
                                     Printing address labels</a></li>

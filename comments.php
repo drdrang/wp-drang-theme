@@ -64,7 +64,7 @@
 
 <?php if ('open' == $post->comment_status) : ?>
 
-<h2>Leave a Reply</h2>
+<h2 id="respond">Leave a Reply</h2>
 
 <?php if ( get_option('comment_registration') && !$user_ID ) : ?>
 <p>You must be <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">logged in</a> to post a comment.</p>
@@ -96,7 +96,7 @@
 <input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
 <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
 </p>
-<p class="instruction">Comments can be in plain text or <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a>. Things that look like URLs will be turned into links automatically. Some comments will be moderated, so don't be surprised if your remarks aren't posted immediately. Comments that just say "Nice post," or something like that, may be flagged as spam and never posted. Abusive comments will be deleted.</p>
+<p class="instruction">Comments can be in plain text or elementary <a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a>.  Some comments will be moderated, so don't be surprised if your remarks aren't posted immediately. Comments that just say "Nice post," or something like that, may be flagged as spam and never posted. Abusive comments will be deleted.</p>
 <?php do_action('comment_form', $post->ID); ?>
 
 </form>

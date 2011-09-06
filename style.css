@@ -34,7 +34,7 @@ a:hover {
 }
 
 #container {
-  width: 50em;
+  width: 53.5em;
   margin-left: auto;
   margin-right: auto;
   background-color: #ded;
@@ -42,12 +42,13 @@ a:hover {
 
 #header {
   background: #384338;
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding-left: .75em;
+  padding-right: .75em;
+  padding-top: .75em;
+  padding-bottom: .75em;
   margin-bottom: 0em;
   color: white;
+  height: 8em;
 }
 
 #header h1 {
@@ -59,6 +60,13 @@ a:hover {
 #header h2 {
   font-size: 120%;
   font-weight: normal;
+}
+
+#header img {
+  float: left;
+  margin-right: 2em;
+  max-width: 8em;
+  max-height: 8em;
 }
 
 #header a {
@@ -303,6 +311,10 @@ a:hover {
   list-style-position: outside;
 }
 
+#content ol.commentlist li li {
+  padding: 0;
+}
+
 /*#content ol.commentlist li.alt {
   background: #efe;
 }
@@ -355,11 +367,11 @@ a:hover {
 
 #sidebar {
   font-family: Helvetica, Sans-Serif;
-  font-size: 75%;
+  font-size: 90%;
   /*background: #ded;
     width: 14em;
     float: right; */
-  margin-left: 51em;
+  margin-left: 42.25em;
   margin-top: 0em;
   /*border-left-style: solid;
     border-left-width: .25em;
@@ -417,7 +429,7 @@ sidebar h3, h4, h5 {
 
 #sidebar hr {
   align: center;
-  width: 6em;
+  width: 8em;
   border-style: none;
   height: 2px;
   background-color: #454;
@@ -438,8 +450,10 @@ sidebar h3, h4, h5 {
   margin-bottom: 1em;
 }
 
-#sidebar img.flickr {
-  margin-left: 1.5em;
+#sidebar img {
+  max-width:14em;
+  max-height:14em;
+  margin-bottom: .25em;
 }
 
 #footer {

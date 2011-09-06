@@ -26,7 +26,7 @@ function publish_later_on_feed($where) {
 	return $where;
 }
 
-add_filter('posts_where', 'publish_later_on_feed');
+// add_filter('posts_where', 'publish_later_on_feed');
 
 function metamark($u) {
   $xrl = 'http://metamark.net/api/rest/simple?long_url=' . urlencode($u);
